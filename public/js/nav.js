@@ -6,7 +6,7 @@ const createNav = () => {
             <img src="img/dark-logo.png" class="brand-logo" alt="">
             <div class="nav-items">
                 <div class="search">
-                    <input type="text" class="search-box" placeholder="search brand, product">
+                    <input type="text" class="search-box" placeholder="search Movies">
                     <button class="search-btn">search</button>
                 </div>
                 <a href="#"><img src="img/user.png" alt=""></a>
@@ -16,7 +16,7 @@ const createNav = () => {
             </div>
         </div>
         <ul class="links-container">
-            <li class="link-item"><a href="index.html" class="link">Home</a></li>
+            <li class="link-item"><a href="intex.html" class="link">Home</a></li>
             <li class="link-item"><a href="product.html" class="link">Everything</a></li>
             <li class="link-item"><a href="best.html" class="link">Best Sellers</a></li>
             <li class="link-item"><a href="discount.html" class="link">Discounts</a></li>

@@ -6,16 +6,16 @@ const createFooter = () => {
         <img src="img/dark-logo.png" class="logo" alt="">
         <div class="footer-ul-container">
             <ul class="category">
-                <li class="category-title">Best Sellers</li>
-                <li><a href="best.html" class="footer-link">Click Here</a></li>            
+                <li><a href="best.html" class="category-title">Best Sellers</a></li>            
             <ul class="category">
-                <li class="category-title">Discounts</li>
-                <li><a href="discount.html" class="footer-link">Click Here</a></li>                
+                <li><a href="discount.html" class="category-title">Discounts</a></li>                
             </ul>
             <ul class="category">
-                <li class="category-title">Products</li>
-                <li><a href="product.html" class="footer-link">Click Here</a></li>                
-            </ul>            
+                <li><a href="product.html" class="category-title">Everything</a></li>                
+            </ul>  
+            <ul class="category">
+                <li><a href="intex.html" class="category-title">Home</a></li>                
+            </ul>          
         </div>
     </div>
     <p class="footer-title">About US</p>

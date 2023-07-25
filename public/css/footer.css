@@ -38,13 +38,7 @@ footer {
     margin-bottom: 20px;
 }
 
-.category .footer-link{
-    text-decoration: none;
-    text-transform: capitalize;
-    color: rgba(255, 255, 255, 0.75);
-}
-
-.footer-link:hover{
+.category-title:hover{
     color: #fff;
 }
 
