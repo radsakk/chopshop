@@ -24,7 +24,7 @@ app.use(express.json());
 
 // home
 app.get('/', (req, res) => {
-    res.sendFile(path.join(staticPath, "index.html"))
+    res.sendFile(path.join(__dirname, "public", "index.html"))
 })
 
 // login
