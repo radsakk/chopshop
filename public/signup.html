@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies : Sign Up</title>
+
+    <link rel="stylesheet" href="../public/css/signup.css">
+</head>
+<body>
+
+    <img src="img/load.gif" class="loader" alt="">
+
+    <div class="alert-box">
+        <img src="img/error.png" class="alert-img" alt="">
+        <p class="alert-msg">Error message</p>
+    </div>
+
+    <div class="container">
+        <img src="img/dark-logo.png" class="logo" alt="">
+            <form action="/submitUser" method="post">
+                <input type="text" autocomplete="off" name="name" placeholder="name">
+                <input type="email" autocomplete="off" name="email" placeholder="email">
+                <input type="password" autocomplete="off" name="password" placeholder="password">
+                <input type="text" autocomplete="off" name="number" placeholder="number">
+                <input type="checkbox" checked class="checkbox" name="tac" id="terms-and-cond">
+                <label for="terms-and-cond">agree to our <a href="">terms and conditions</a></label>
+                <br>
+                <input type="checkbox" class="checkbox" name="check" id="notification">
+                <label for="notification">recieve upcoming offers and events mails</a></label>
+                <button type="submit" class="submit-btn">create account</button>
+            </form>
+        <a href="login.html" class="link">have an account? Log in here</a>
+        <a href="intex.html" class="link">Dont want an account? Go to Home page</a>
+    </div>
+
+    <script src="js/token.js"></script>
+    <script src="../route/models/user.js"></script>
+    
+</body>
+</html> 
